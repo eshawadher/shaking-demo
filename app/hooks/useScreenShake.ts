@@ -1,5 +1,6 @@
 'use client';
 
+//prevents unnecesary re renders --> memoization
 import { useCallback } from 'react';
 
 export default function useScreenShake(duration: number = 300) {
